@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=Time Tracker
+Comment=Named timers shown as pills, with a built-in MCP server
+Exec=python3 @APP_DIR@/time_tracker.py
+Path=@APP_DIR@
+Icon=time-tracker
+Terminal=false
+Categories=Utility;
+Keywords=timer;time;tracking;stopwatch;
+StartupNotify=true
+StartupWMClass=time-tracker
